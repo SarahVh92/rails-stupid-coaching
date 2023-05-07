@@ -1,20 +1,12 @@
-<div class="container d-flex flex-column justify-content-center">
- <h1>Stupid Coaching</h1>
-  <form action="answer" data-turbo="false">
-    <%# div-box for the label %>
-    <div class="label-group mb-6">
-      <%# label for what's written above input box %>
-      <label for="input" class="form-label">Ask your coach anything:</label>
-    </div>
-    <%# div-box for the input-group %>
-    <div class="input-group mb-6">
-      <%# input box %>
-      <%# extra box for the input-button %>
-      <div class="input-group">
-        <input type="text" class="form-control" name="question" id="input">
-          <%# actual button, value is what is written in the box %>
-        <input class="btn btn-primary" type="submit" value="Ask">
-      </div>
+<div class="container m-4">
+  <h2>Stupid Coaching</h2>
+
+  <form action="/answer" data-turbo="false">
+    <p>Ask your coach anything</p>
+
+    <div class="input-group">
+      <input type="text" id="ask" name="ask" class="form-control">
+      <input type="submit" value="Ask!" class="btn btn-primary">
     </div>
   </form>
 </div>

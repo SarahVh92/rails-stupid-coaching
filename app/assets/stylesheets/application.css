@@ -16,18 +16,31 @@
 *= require_self
 */
 
-/* .input-group .btn {
-  font-weight: bold;
-  color: white;
+/* .container {
+  margin: 25px;
 } */
 
-.container {
-  margin: 16px 32px;
-  padding: 0;
-  /* display: flex; */
+h2 {
+  font-size: 30px;
 }
 
-/* body {
-  display: flex;
-  flex-direction: column;
-} */
+p {
+  font-size: 18px;
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(38, 31, 171);
+}
+
+.question,
+.answer {
+  border-left: 6px  rgb(189, 188, 183) solid;
+  /* padding-left: 16px; */
+  width: 600px;
+}
+
+.answer {
+  background-color: rgb(240, 241, 171, 0.5);
+  /* margin-top: 24px; */
+}
