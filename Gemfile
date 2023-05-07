@@ -66,4 +66,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  # manually added gem
+  gem "launchy"
 end
